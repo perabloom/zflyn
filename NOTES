@@ -1,0 +1,30 @@
+My personal notes on how to?
+Quick commands
+
+
+
+
+Frontend
+add following to frontend.sh
+cd frontend
+nvm install
+nvm use
+npm install
+npm run dev
+
+ACCESS FRONTEND AT
+http://localhost:5173/
+
+
+Backend
+intall uv
+cd backend
+uv sync
+source .venv/bin/activate
+fastapi run --reload app/main.py
+
+backend : http://localhost:8000/docs
+database : http://localhost:8080
+
+
+In order to start both backend and frontend independently, i.e. outside of docker, do the following
