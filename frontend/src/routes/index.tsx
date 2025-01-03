@@ -321,6 +321,6 @@ const reviews = [
       avatar: "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80",
     },
   ];
-export const Route = createFileRoute("/landingpage")({
+export const Route = createFileRoute("/")({
     component: LandingPage,
 });
